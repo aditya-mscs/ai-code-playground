@@ -1,5 +1,5 @@
 {
-  "name": "ai-code-playground",
+  "name": "influencer-marketplace",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,19 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-dropdown-menu": "^2.0.5",
+    "@radix-ui/react-switch": "^1.0.3",
+    "@reduxjs/toolkit": "^1.9.7",
+    "@tanstack/react-query": "^4.36.1",
+    "lucide-react": "^0.233.0",
+    "next": "15.2.1",
+    "next-auth": "^4.22.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.1"
+    "react-redux": "^8.1.3"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.42.0",
     "eslint-config-next": "15.2.1",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5"
   }
 }
